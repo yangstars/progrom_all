@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # encoding: utf-8
-
+"""
+在下面的代码中 callable() 函数能够检查一个函数是否能够被调用。如果能够被调用返回True。
+gerattr()函数则是返回一个对象的属性值。举例来说，getattr(x, 'foo', None) 就相当于是 x.foo，而如果没有这个属性值foobar，则返回我们设定的默认值None。
+"""
 class Handler:
     """
     处理程序父类

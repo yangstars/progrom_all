@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # encoding: utf-8
+"""
+实现文本块生成器把纯文本分成一个一个的文本块，以便接下来对每一个文本块进行解析
+"""
 
 def lines(file):
     """
